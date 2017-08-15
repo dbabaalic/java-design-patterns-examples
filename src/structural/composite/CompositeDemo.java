@@ -9,14 +9,14 @@ public class CompositeDemo {
         squad1.addUnit(new ProductOwner("Mark"));
         squad1.addUnit(new ScrumMaster("Maja"));
         squad1.addUnit(new Developer("Igor"));
-        squad1.addUnit(new Tester("Ivan"));
+        squad1.addUnit(new QualityAssurance("Ivan"));
         tribe1.addUnit(squad1);
 
         Squad squad2 = new Squad("squad2");
         squad2.addUnit(new ProductOwner("Ben"));
         squad2.addUnit(new ScrumMaster("Natasa"));
         squad2.addUnit(new Developer("Marko"));
-        squad2.addUnit(new Tester("Petar"));
+        squad2.addUnit(new QualityAssurance("Petar"));
         tribe1.addUnit(squad2);
 
         tribe1.displayUnitInformation();
